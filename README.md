@@ -132,7 +132,7 @@ npm run test:coverage
 ### ✨ Apply
 
 ```bash
-git clone https://github.com/yourname/classname-utils.git
+git clone https://github.com/wongchisum/classname-utils.git
 cd classname-utils
 ```
 
