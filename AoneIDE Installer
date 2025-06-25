@@ -1,0 +1,22 @@
+# 忽略测试文件
+/specs/
+__tests__
+
+# 忽略构建配置以外的文件
+tsup.config.ts
+vitest.config.ts
+vite.config.ts
+
+# 忽略 git 相关
+.git
+.gitignore
+
+# 忽略 node_modules
+node_modules
+
+# 忽略性能测试输出
+/output/
+bench/
+
+# 忽略文档
+/docs/
