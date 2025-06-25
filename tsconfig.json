@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    // 指定输出文件的目标目录
+    "outDir": "./dist",
+    
+    // 设置模块系统为 ESNext，以支持 ESM
+    "module": "NodeNext",
+    
+    // 将代码编译成 ECMAScript 版本（例如 ES2015 或 ES6）
+    "target": "ES2015",
+    
+    // 启用严格类型检查模式
+    "strict": true,
+    
+    // 禁止编译时省略所有的声明文件
+    "noEmit": false,
+    
+    // 允许导入未解析的外部模块
+    "allowSyntheticDefaultImports": true,
+    
+    // 保留编译过程中注释中的 JSDoc 注释
+    "preserveConstEnums": true,
+    
+    // 在编译时移除所有 console.log() 调用
+    "removeComments": true,
+    
+    // 生成相应的 .map 文件
+    "sourceMap": true,
+    
+    // 使编译器将 JavaScript 文件识别为模块
+    "esModuleInterop": true,
+
+    // 使用 nodenext 模块解析策略
+    "moduleResolution": "nodenext"
+  },
+  
+  // 编译时排除指定的文件或文件夹
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
