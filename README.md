@@ -2,6 +2,8 @@
 
 一个轻量、高性能的类名工具库，支持前缀（prefix）、分隔符（separator）和上下文映射（context），适合用于组件化 UI 开发中统一类名生成逻辑。
 
+DeepWiki: https://deepwiki.com/wongchisum/classname-utils
+
 ## 📦 安装
 
 ### ✨ Apply
